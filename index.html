@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash memo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1 class="heading">Cash Register</h1>
+``
+    <p class="sub-heading">Enter the bill amount and cash given by the customer and know minimum number of notes to
+        return. </p>
+    <div class="content">
+        <div class="container-1 ">
+            <div class="container-1-a">
+                <label for="bill-amount" id="bill-heading-lable">Bill Amount</label>
+                <input type="text" id="bill-amount">
+                <button class="confirm-btn">Confirm</button>
+            </div>
+            <div class="cash-section">
+                <div class="container-1-b">
+                    <label for="cash-given" id="cash-heading-lable">Cash Given</label>
+                    <input type="text" id="cash-given">
+                    <button id="check-btn">Check</button>
+
+                </div>
+            </div>
+            <div class="container-1-c">
+                <p class="error-msg"></p>
+            </div>
+        </div>
+        <div class="container-2">
+            <table class="cash-book-table">
+                <caption>Return Changes</caption>
+
+                <tr>
+                    <th>No of notes</th>
+                    <th>Notes</th>
+                </tr>
+
+                <tr>
+                    <th>2000</th>
+                    <td class="return-change notes-value-1"></td>
+                </tr>
+                </tr>
+                <tr>
+                    <th>500</th>
+                    <td class="return-change"></td>
+                </tr>
+                <tr>
+                    <th>100</th>
+                    <td class="return-change"></td>
+                </tr>
+                <tr>
+                    <th>20</th>
+                    <td class="return-change"></td>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <td class="return-change"></td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td class="return-change"></td>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td class="return-change"></td>
+                </tr>
+            </table>
+            <div>
+               
+                <div class="return-section">
+                    <p class="total-return-amount">Total return amount</p>
+                    <p class="total-return-amount-value"></p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+     <div class="social-touch">
+        <footer>
+            <p><a href="https://github.com/ravikumar1002" class="fab fa-github icon-style" target="_blank"></a></p>
+            <p><a href="https://www.linkedin.com/in/ravikumar-1002" class="fab fa-linkedin icon-style" target="_blank"></a></p>
+            <p><a href="https://twitter.com/kumarravi1002" class="fab fa-twitter-square icon-style" target="_blank"></a></p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
