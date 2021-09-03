@@ -10,7 +10,6 @@
 
 # Technologies used: 
 
-
    * html
    * css
    * javascript
