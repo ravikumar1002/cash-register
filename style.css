@@ -155,7 +155,7 @@ td {
 }
 
 .social-touch{
-    position: absolute;
+    position: sticky;
     bottom: 0;
 }
 
@@ -211,8 +211,5 @@ footer{
     padding: 1rem;
     }
 }
-
-
-
 
 
