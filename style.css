@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    height: 100vh;
+}
+
 button, label, input {
     margin: auto;
 }
@@ -157,6 +161,7 @@ td {
 .social-touch{
     position: sticky;
     bottom: 0;
+    top: 100%;
 }
 
 .icon-style{
@@ -168,7 +173,7 @@ footer{
    display: flex;
    gap: 3rem;
    justify-content: center;
-   width: 97.8vw;
+   width: auto;
    padding: 1rem;
    margin-top: 2rem;
    background: rgba(140, 140, 145, 0.719);
