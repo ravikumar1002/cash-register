@@ -54,7 +54,7 @@ function showMsg(msg) {
 
 confirmBtn.addEventListener("click", function () {
     console.log(Number(billAmount.value))
-    if(!Number(billAmount.value)){
+    if((!Number(billAmount.value)) || ((+billAmount.value) < 0)){
         showMsg("Incorrect amount ")
     }else{
         hideMsg()
