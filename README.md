@@ -1,6 +1,6 @@
 # Cash register
 
-    Are you stuck in giving change to customer ? This site will tell you, how you can return a change using minimum number of notes or coins.
+  Are you stuck in giving change to customer ? This site will tell you, how you can return a change using minimum number of notes or coins.
 
 # How to use:
 
