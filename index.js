@@ -35,7 +35,7 @@ checkBtn.addEventListener("click", function () {
             calcAmount(showBalance)
 
         } else{
-
+            containerTwo.style.display = "none"
             showMsg("Do you wanna plate wash")
         }
     }
@@ -53,14 +53,20 @@ function showMsg(msg) {
 }
 
 confirmBtn.addEventListener("click", function () {
-    console.log(Number(billAmount.value))
+    // console.log(Number(billAmount.value))
     if((!Number(billAmount.value)) || ((+billAmount.value) < 0)){
+        containerTwo.style.display = "none"
+        containerOneB.style.display = "none"
         showMsg("Incorrect amount ")
+        cashGiven.value = ""
+
     }else{
         hideMsg()
         containerOneB.style.display = "block"
     }
 })
+
+
 
 
 
